@@ -13,7 +13,17 @@ body {
     gap: 24px;
 }
 
-.hero_logo_text {
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.hero_logo_text,
+.call_to_action_title_text {
     font-size: 24px;
     font-weight: 900;
     color: #FFFFFF;
@@ -25,7 +35,8 @@ body {
     color: #FFFFFF;
 }
 
-.hero_secondary_text {
+.hero_secondary_text,
+.call_to_action_secondary_text {
     font-size: 18px;
     color: #FFFFFF;
 }
@@ -67,4 +78,47 @@ body {
 
 .secondary_background_color {
     background-color: #ECEFF1
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_section {
+    display: flex;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.additional_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiles {
+    display: flex;
+}
+
+.quote_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_to_action_section {
+    display: flex;
+    margin: 20px;
+}
+
+.call_to_action_content {
+    display: flex;
+    flex-direction: column;
 }
