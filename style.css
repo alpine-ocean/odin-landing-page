@@ -13,6 +13,8 @@ body {
     gap: 24px;
 }
 
+
+
 ul {
     display: flex;
     list-style: none;
@@ -20,6 +22,7 @@ ul {
     align-content: center;
     padding: 0;
     margin: 0;
+    gap: 16px;
 }
 
 .hero_logo_text,
@@ -43,6 +46,15 @@ ul {
 
 .button_call_to_action {
     background-color: #FF1E1E;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    
 }
 
 .call_to_action_text {
@@ -74,6 +86,7 @@ ul {
 
 .dark_background_color {
     background-color: #263238;
+    
 }
 
 .secondary_background_color {
@@ -84,26 +97,53 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 16px 100px;
 }
 
 .hero_section {
     display: flex;
+    margin: 60px 100px;
+    justify-content: space-between;
 }
 
 .hero_content {
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    gap: 16px;
+}
+
+.rp_logo {
+    height: 200px;
+    border-radius: 15px;
 }
 
 .additional_info {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.info_icon {
+    height: 100px;
+    border-style: solid;
+    border-color: #FF1E1E;
+    border-radius: 10px;
+    border-width: 3px;
 }
 
 .tiles {
     display: flex;
+    justify-content: space-between;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
 }
 
 .quote_section {
@@ -122,3 +162,4 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
