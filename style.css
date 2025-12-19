@@ -25,6 +25,11 @@ ul {
     gap: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .hero_logo_text,
 .call_to_action_title_text {
     font-size: 24px;
@@ -41,7 +46,7 @@ ul {
 .hero_secondary_text,
 .call_to_action_secondary_text {
     font-size: 18px;
-    color: #FFFFFF;
+    color: #ffffffea;
 }
 
 .button_call_to_action {
@@ -54,7 +59,7 @@ ul {
     border-style:solid;
     border-color: #FFFFFF;
     border-width: 1px;
-    
+    min-width: 110px;
 }
 
 .call_to_action_text {
@@ -76,6 +81,7 @@ ul {
     font-weight: 300;
     font-style: italic;
     color:#000000;
+    max-width: 600px;
 }
 
 .info_header_text {
@@ -120,11 +126,11 @@ ul {
 
 .additional_info {
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    gap: 32px;
+    padding: 32px;
 }
 
 .info_icon {
@@ -137,13 +143,18 @@ ul {
 
 .tiles {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 .tile {
     display: flex;
     flex-direction: column;
     width: 100px;
+    gap: 10px;
+}
+
+.text {
+    text-align: center;
 }
 
 .quote_section {
@@ -151,15 +162,23 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .call_to_action_section {
     display: flex;
     margin: 20px;
+    max-width: 700px;
+    height: 80px;
+    justify-self: center;
+    gap: 25px;  
+    border-radius: 10px;  
 }
 
 .call_to_action_content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
 }
 
